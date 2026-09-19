@@ -1,0 +1,49 @@
+{
+  "name": "环球声景",
+  "appid": "__UNI__COUNTRY_SOUND",
+  "description": "按国家生成特色白噪音与生成音乐",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "nvueCompiler": "uni-app",
+    "compilerVersion": 3,
+    "splashscreen": {
+      "alwaysShowBeforeRender": true,
+      "waiting": true,
+      "autoclose": true,
+      "delay": 0
+    },
+    "modules": {
+      "Audio": {}
+    },
+    "distribute": {
+      "android": {
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+          "<uses-permission android:name=\"android.permission.FOREGROUND_SERVICE\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>"
+        ]
+      },
+      "ios": {
+        "UIBackgroundModes": ["audio"],
+        "capabilities": {
+          "entitlements": {
+            "com.apple.developer.associated-domains": []
+          }
+        }
+      }
+    }
+  },
+  "quickapp": {},
+  "harmonyos": {
+    "target": "HarmonyOS NEXT",
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.KEEP_BACKGROUND_RUNNING",
+        "reason": "用于白噪音和助眠音乐后台播放"
+      }
+    ]
+  }
+}
