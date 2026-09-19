@@ -191,7 +191,7 @@ export const COUNTRIES = [
       { id: 'is_31', title: '《冰川裂隙 Crevasse》深层低频地质脉动实录', file: '/audio/music/iceland_crevasse.ogg', type: 'audio' },
       { id: 'is_32', title: '《苔原之歌 Moss Song》苔藓荒原微风轻吟实录', file: '/audio/music/iceland_moss_song.ogg', type: 'audio' },
       { id: 'is_33', title: '《黑沙滩 Black Sand》维克海岸暗涌氛围实录', file: '/audio/music/iceland_black_sand.ogg', type: 'audio' },
-      { id: 'is_34', title: '《间歇泉 Geysir》地热蒸汽脉冲合成实录', file: '/audio/music/iceland_geysir.ogg', type: 'audio' },
+      { id: 'is_34', title: '《间歇泉 Geysir》地热蒸汽脉冲实录', file: '/audio/music/iceland_geysir.ogg', type: 'audio' },
       { id: 'is_35', title: '《午夜太阳 Midnight Sun》极昼金光弦乐实录', file: '/audio/music/iceland_midnight_sun.ogg', type: 'audio' },
       { id: 'is_36', title: '《瓦特纳 Vatnajökull》欧洲最大冰盖回响实录', file: '/audio/music/iceland_vatnajokull.ogg', type: 'audio' },
       { id: 'is_37', title: '《蓝湖 Blue Lagoon》地热温泉深层冥想实录', file: '/audio/music/iceland_blue_lagoon.ogg', type: 'audio' },
